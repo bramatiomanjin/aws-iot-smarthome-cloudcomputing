@@ -1,10 +1,13 @@
 # 🏠 IoT Smart Home Monitoring System - AWS
 Proyek UAS Cloud Computing - Teknik Informatika UPR 2026.
 
-## 👥 Anggota Kelompok
-* **Bramatio Manjin** (2330205030052) - Cloud Architect
-* **Ciko Christian** (2330205030059) - DevOps Engineer
-* **Gregio Rafael L. J.** (2330305030072) - Backend & Security
+## 👥 Anggota Kelompok & Peran
+| Nama Anggota | NIM | Peran | Tanggung Jawab |
+| :--- | :--- | :--- | :--- |
+| **Bramatio Manjin** | 2330205030052 | DevOps Engineer | Pengelolaan Git, persiapan infrastruktur (Terraform/IaC). |
+| **Ciko Christian** | 2330205030059 | Cloud Architect | Desain arsitektur, pemilihan layanan, dan optimasi biaya. |
+| **Gregio Rafael Leon Jordan** | 2330305030072 | Backend Developer | Implementasi kode Lambda, integrasi SNS, dan kebijakan IAM. |
+| **Haryadi Yusuf** | 2330305030074 | Security Engineer | Konfigurasi enkripsi data, audit keamanan, dan manajemen sertifikat. |
 
 ## 📊 Arsitektur Sistem (Final Minggu 1)
 ![Architecture Diagram](docs/DiagramArsitektur.png)
