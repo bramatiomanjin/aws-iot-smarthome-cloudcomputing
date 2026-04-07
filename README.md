@@ -17,8 +17,8 @@ Proyek UAS Cloud Computing - Teknik Informatika UPR 2026.
 - [💰 Estimasi Biaya AWS - $3.82/Bulan (PDF)](docs/Estimasi_Biaya_AWS.pdf)
 
 ## 🛠️ Detail Layanan (AWS Singapore Region)
-- [cite_start]**AWS IoT Core**: Gateway MQTT untuk sensor (43.200 pesan/bulan). [cite: 5]
-- [cite_start]**AWS Lambda**: Pemrosesan logika dan deteksi anomali (43.200 request/bulan). [cite: 5]
-- [cite_start]**Amazon CloudWatch**: Monitoring dashboard untuk 5 metrik sensor (Suhu, Kelembapan, Gerak, Gas, Lampu). [cite: 5]
-- [cite_start]**Amazon DynamoDB & S3**: Penyimpanan data real-time dan arsip log (Standard Storage 1 GB). [cite: 5]
+- **AWS IoT Core**: Gateway MQTT untuk sensor (43.200 pesan/bulan).
+- **AWS Lambda**: Pemrosesan logika dan deteksi anomali (43.200 request/bulan).
+- **Amazon CloudWatch**: Monitoring dashboard untuk 5 metrik sensor (Suhu, Kelembapan, Gerak, Gas, Lampu).
+- **Amazon DynamoDB & S3**: Penyimpanan data real-time dan arsip log (Standard Storage 1 GB).
 - **Amazon SNS**: Pengiriman notifikasi peringatan (Email/SMS).
