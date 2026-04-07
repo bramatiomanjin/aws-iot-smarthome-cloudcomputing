@@ -10,7 +10,9 @@ Proyek UAS Cloud Computing - Teknik Informatika UPR 2026.
 
 \* \*\*Ciko Christian\*\* (2330205030059) - DevOps Engineer
 
-\* \*\*Gregio Rafael L. J.\*\* (2330305030072) - Backend \& Security
+\* \*\*Gregio Rafael L. J.\*\* (2330305030072) - Backend
+
+\* \*\*Haryadi Yusuf\*\* (2330305030074) - Security
 
 
 
