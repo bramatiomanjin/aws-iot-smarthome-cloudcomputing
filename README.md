@@ -1,44 +1,44 @@
 \# 🏠 IoT Smart Home Monitoring System - AWS
 
-Proyek UAS Cloud Computing - Teknik Informatika UPR 2026.
+\[cite\_start]Proyek UAS Cloud Computing - Teknik Informatika UPR 2026. \[cite: 1, 5]
 
 
 
 \## 👥 Anggota Kelompok
 
-\* \*\*Bramatio Manjin\*\* (2330205030052) - Cloud Architect
+\* \[cite\_start]\*\*Bramatio Manjin\*\* (2330205030052) - Cloud Architect \[cite: 27]
 
-\* \*\*Ciko Christian\*\* (2330205030059) - DevOps Engineer
+\* \[cite\_start]\*\*Ciko Christian\*\* (2330205030059) - DevOps Engineer \[cite: 27]
 
-\* \*\*Gregio Rafael L. J.\*\* (2330305030072) - Backend \& Security
-
-
-
-\## 📊 Arsitektur Sistem (Minggu 1)
-
-!\[Architecture Diagram](docs/DiagramArsitektur.drawio.png)
+\* \[cite\_start]\*\*Gregio Rafael L. J.\*\* (2330305030072) - Backend \& Security \[cite: 27]
 
 
 
-\## 🛠️ Layanan AWS yang Digunakan
+\## 📊 Arsitektur Sistem (Final Minggu 1)
 
-\- \*\*AWS IoT Core\*\*: Gateway pesan MQTT.
-
-\- \*\*AWS Lambda\*\*: Pemrosesan logika tanpa server.
-
-\- \*\*Amazon DynamoDB\*\*: Database data real-time.
-
-\- \*\*Amazon S3\*\*: Penyimpanan log jangka panjang.
-
-\- \*\*Amazon SNS\*\*: Notifikasi alert (Email/SMS).
-
-\- \*\*Amazon CloudWatch\*\*: Monitoring \& Logging.
+\[cite\_start]!\[Architecture Diagram](docs/DiagramArsitektur.png) 
 
 
 
-\## 💰 Estimasi Biaya
+\## 📄 Dokumen Resmi
 
-Total estimasi bulanan: \*\*$3.82 USD\*\* (Region: Singapore). 
+\- \[cite\_start]\[📖 Laporan Perencanaan Proyek (PDF)](docs/Final\_Project\_Cloud\_Computing.pdf) \[cite: 29, 31]
 
-\*Dokumen detail ada di folder /docs.\*
+\- \[cite\_start]\[💰 Estimasi Biaya AWS - $3.82/Bulan (PDF)](docs/Summary\_Estimasi\_Biaya\_AWS.pdf) \[cite: 26, 185]
+
+
+
+\## 🛠️ Detail Implementasi (Minggu 1)
+
+\[cite\_start]Sistem ini menggunakan 5 layanan utama AWS dengan fokus pada observability: \[cite: 25, 45]
+
+1\. \[cite\_start]\*\*AWS IoT Core\*\*: Ingest data MQTT dari sensor Suhu \& Gerak. \[cite: 185]
+
+2\. \[cite\_start]\*\*AWS Lambda\*\*: Logika deteksi anomali (43.200 request/bulan). \[cite: 185]
+
+3\. \[cite\_start]\*\*Amazon CloudWatch\*\*: Monitoring 5 metrik utama \& Dashboard. \[cite: 185]
+
+4\. \[cite\_start]\*\*Amazon DynamoDB\*\*: Database NoSQL untuk data real-time. \[cite: 185]
+
+5\. \[cite\_start]\*\*Amazon S3\*\*: Archiving data mentah dan logs. \[cite: 185]
 
