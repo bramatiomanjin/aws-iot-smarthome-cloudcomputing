@@ -1,46 +1,21 @@
-\# 🏠 IoT Smart Home Monitoring System - AWS
-
+# 🏠 IoT Smart Home Monitoring System - AWS
 Proyek UAS Cloud Computing - Teknik Informatika UPR 2026.
 
+## 👥 Anggota Kelompok
+* **Bramatio Manjin** (2330205030052) - Cloud Architect
+* **Ciko Christian** (2330205030059) - DevOps Engineer
+* **Gregio Rafael L. J.** (2330305030072) - Backend & Security
 
+## 📊 Arsitektur Sistem (Final Minggu 1)
+![Architecture Diagram](docs/DiagramArsitektur.png)
 
-\## 👥 Anggota Kelompok
+## 📄 Dokumen Proyek
+- [Laporan Perencanaan Proyek (PDF)](docs/Dokumen_Perencanaan_Proyek.pdf)
+- [Estimasi Biaya AWS - $3.82/Bulan (PDF)](docs/Estimasi_Biaya_AWS.pdf)
 
-\* \*\*Bramatio Manjin\*\* (2330205030052) - Cloud Architect
-
-\* \*\*Ciko Christian\*\* (2330205030059) - DevOps Engineer
-
-\* \*\*Gregio Rafael L. J.\*\* (2330305030072) - Backend
-
-\* \*\*Haryadi Yusuf\*\* (2330305030074) - Security
-
-
-
-\## 📊 Arsitektur Sistem (Minggu 1)
-
-!\[Architecture Diagram](docs/DiagramArsitektur.drawio.png)
-
-
-
-\## 🛠️ Layanan AWS yang Digunakan
-
-\- \*\*AWS IoT Core\*\*: Gateway pesan MQTT.
-
-\- \*\*AWS Lambda\*\*: Pemrosesan logika tanpa server.
-
-\- \*\*Amazon DynamoDB\*\*: Database data real-time.
-
-\- \*\*Amazon S3\*\*: Penyimpanan log jangka panjang.
-
-\- \*\*Amazon SNS\*\*: Notifikasi alert (Email/SMS).
-
-\- \*\*Amazon CloudWatch\*\*: Monitoring \& Logging.
-
-
-
-\## 💰 Estimasi Biaya
-
-Total estimasi bulanan: \*\*$3.82 USD\*\* (Region: Singapore). 
-
-\*Dokumen detail ada di folder /docs.\*
-
+## 🛠️ Detail Layanan (AWS Singapore Region)
+- [cite_start]**AWS IoT Core**: Gateway MQTT untuk sensor (43.200 pesan/bulan).
+- [cite_start]**AWS Lambda**: Pemrosesan logika dan deteksi anomali.
+- [cite_start]**Amazon CloudWatch**: Monitoring dashboard untuk 5 metrik sensor (Suhu, Kelembapan, Gerak, Gas, Lampu).
+- [cite_start]**Amazon DynamoDB & S3**: Penyimpanan data real-time dan arsip log.
+- **Amazon SNS**: Pengiriman notifikasi peringatan (Email/SMS).
