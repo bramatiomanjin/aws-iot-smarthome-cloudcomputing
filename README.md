@@ -13,7 +13,7 @@ Proyek UAS Cloud Computing - Teknik Informatika UPR 2026.
 ![Architecture Diagram](docs/DiagramArsitektur.png)
 
 ## 📄 Dokumen Proyek
-- [📖 Laporan Perencanaan Proyek (PDF)](docs/Dokumen_Perencanaan_Proyek.pdf)
+- [📖 Laporan Perencanaan Proyek (PDF)](docs/Dokumen Perencanaan Proyek.pdf)
 - [💰 Estimasi Biaya AWS - $3.82/Bulan (PDF)](docs/Estimasi_Biaya_AWS.pdf)
 
 ## 🛠️ Detail Layanan (AWS Singapore Region)
