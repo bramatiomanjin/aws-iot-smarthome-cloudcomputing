@@ -10,7 +10,7 @@ Proyek UAS Cloud Computing - Teknik Informatika UPR 2026.
 | **Haryadi Yusuf** | 2330305030074 | Security Engineer | Konfigurasi enkripsi data, audit keamanan, dan manajemen sertifikat. |
 
 ## 📊 Arsitektur Sistem (Final Minggu 1)
-![Architecture Diagram](docs/DiagramArsitektur.png)
+![Diagram Arsitektur](docs/DiagramArsitektur.png)
 
 ## 📄 Dokumen Proyek
 - [📖 Laporan Perencanaan Proyek (PDF)](https://github.com/bramatiomanjin/aws-iot-smarthome-cloudcomputing/blob/43a8fd601d4e66693e3470aef516491c171c48a7/docs/Dokumen%20Perencanaan%20Proyek.pdf)
